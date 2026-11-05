@@ -1,0 +1,21 @@
+{
+  "command": "experiment",
+  "requests": 600,
+  "objects": 20,
+  "horizon": 10,
+  "seeds": [
+    11,
+    22
+  ],
+  "workloads": [
+    "uniform",
+    "zipf",
+    "bursty",
+    "shifting"
+  ],
+  "capacities": [
+    8192,
+    16384
+  ],
+  "output": "artifacts/smoke"
+}
